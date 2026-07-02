@@ -7,7 +7,7 @@ import numpy as np
 import pandas as pd
 
 app=Flask(__name__)
-CORS(app, origins=["https://creditscore-mu.vercel.app/"])
+CORS(app, origins="*")
 ## Load the model
 model = joblib.load('linear_model.pkl')
 scaler = joblib.load('nurmalijation.pkl')
