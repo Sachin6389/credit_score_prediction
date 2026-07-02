@@ -5,3 +5,5 @@ matplotlib
 Flask
 gunicorn
 joblib
+flask_cors
+flask
