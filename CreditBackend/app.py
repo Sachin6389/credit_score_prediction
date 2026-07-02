@@ -21,7 +21,7 @@ def predict_api():
     
     
 
-    datanew = pd.DataFrame(data)
+    datanew = pd.DataFrame([data])
     ##print(np.array(list(data.values())).reshape(1,-1))
     
     ##datas.drop(columns=["_id","actionData","createdAt","updatedAt"],axis=1,inplace=True, errors='ignore')
