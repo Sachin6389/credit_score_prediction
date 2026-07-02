@@ -7,3 +7,4 @@ gunicorn
 joblib
 flask_cors
 flask
+scikit-learn
