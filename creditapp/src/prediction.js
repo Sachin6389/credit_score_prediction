@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 export async function predictCreditScore(text, block, last, first, action) {
-  const res = await axios.post("https://credit-score-prediction-ochw.onrender.com/predict", {
+  const res = await axios.post("https://credit-score-prediction-ochw.onrender.com/predict_api", {
     tx_count: text,
     unique_blocks: block,
     action: action,
