@@ -108,7 +108,7 @@ def predict():
 
     # Predict
     output = model.predict(newdata)[0]
-    return jsonify({'prediction': float(output)})
+    return jsonify({'prediction': float(output[0])})
 
     
  
